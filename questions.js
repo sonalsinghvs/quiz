@@ -6,4 +6,4 @@ const myQuiz = [
 ];
 const myRandomQuestion = myQuiz[Math.round(Math.random() * myQuiz.length - 1)];
 let userAnswer = prompt(myRandomQuestion.question, ' ');
-window.alert('You answered' + ' ' + userAnswer + ' .' + 'The correct answer is' + ' ' + myRandomQuestion.answer + '.');
+window.alert('You answered' + ' ' + userAnswer + '. ' + 'The correct answer is' + ' ' + myRandomQuestion.answer + '.');
